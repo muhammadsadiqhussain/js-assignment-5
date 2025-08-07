@@ -133,3 +133,85 @@
 // let birthYear = 2000
 // let age = currentYear - birthYear
 // document.write(age)
+
+// chapter 12
+
+// Q NO 1
+
+// let userValue = prompt("Enter a character:");
+
+// if (userValue.length === 1) {
+//   let ascii = userValue.charCodeAt(0);
+
+//   if (ascii >= 48 && ascii <= 57) {
+//     console.log("It's a number.");
+//   } else if (ascii >= 65 && ascii <= 90) {
+//     console.log("It's an uppercase letter.");
+//   } else if (ascii >= 97 && ascii <= 122) {
+//     console.log("It's a lowercase letter.");
+//   } else {
+//     console.log("It's a special character or not valid.");
+//   }
+// } else {
+//   console.log("Please enter only one character.");
+// }
+
+// Q NO 2
+
+// var userNum1 = parseInt(prompt("enter 1st number?"))
+// var userNum2 = parseInt(prompt("enter 2nd number?"))
+
+// if (userNum1 > userNum2) {
+//     console.log(userNum1 + " is larger then " + userNum2);
+
+// } else if (userNum2 > userNum1) {
+//     console.log(userNum2 + " is larger then " + userNum1);
+
+// } else {
+//     console.log("Both Equal");
+
+// }
+
+// Q NO 3
+
+// var userNumber = prompt("enter a any number")
+
+// if (userNumber >= 0) {
+//     console.log("positive");
+// } else if (userNumber < 0) {
+//     console.log("nagative");
+// } else {
+//     console.log("not a number");
+
+// }
+
+// Q NO 4
+
+// var userInput = prompt("enter only vowels one letter?").toLowerCase();
+
+// if (userInput.length === 1) {
+//   if (
+//     userInput == "a" ||
+//     userInput == "e" ||
+//     userInput == "i" ||
+//     userInput == "o" ||
+//     userInput == "u"
+//   ) { console.log("correct input");
+  
+//   } else {
+//     console.log("false input");
+    
+//   }}
+
+// Q NO 5
+
+// var userPassword = prompt("enter your password")
+
+// var orignalPassword = "123456"
+
+// if (userPassword == orignalPassword) {
+//     alert("Welcome")
+    
+// } else { alert("wrong password")
+
+// }
